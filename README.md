@@ -1,6 +1,10 @@
 # bungee-multi-console
 This is a console (CMD) manager for windows used to consolidate multiple minecraft/spigot server instances into one GUI for ease of use and simple commands.
 
+# Preview
+![Alt text](https://drive.google.com/uc?export=view&id=0B0yO7rUCElDeVHlrSWRNOVlOTGs
+ "BMC Preview")
+
 ## BungeeMultiConsole does
    - help keep all server windows in one area
    - help stop the habit of continually alt+tab-ing over to the wrong window >.<
