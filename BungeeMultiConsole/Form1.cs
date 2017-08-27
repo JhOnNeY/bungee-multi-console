@@ -71,5 +71,11 @@ namespace BungeeMultiConsole
             myProcess.StartInfo.WindowStyle = ProcessWindowStyle.Maximized;
             myProcess.Start();
         }
+
+        private void testFormButton_Click(object sender, EventArgs e)
+        {
+            TestConsoleForm form = new TestConsoleForm();
+            form.Show();
+        }
     }
 }

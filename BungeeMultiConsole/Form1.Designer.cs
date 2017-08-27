@@ -53,6 +53,7 @@
             this.closeButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.testFormButton = new System.Windows.Forms.Button();
             this.customArgsFlowPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -320,6 +321,16 @@
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 14;
             // 
+            // testFormButton
+            // 
+            this.testFormButton.Location = new System.Drawing.Point(8, 519);
+            this.testFormButton.Name = "testFormButton";
+            this.testFormButton.Size = new System.Drawing.Size(134, 50);
+            this.testFormButton.TabIndex = 13;
+            this.testFormButton.Text = "TestConsole";
+            this.testFormButton.UseVisualStyleBackColor = true;
+            this.testFormButton.Click += new System.EventHandler(this.testFormButton_Click);
+            // 
             // BungeeMultiConsole
             // 
             this.AcceptButton = this.multiSaveButton;
@@ -328,6 +339,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(1004, 652);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.testFormButton);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.titleLabel);
@@ -379,6 +391,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button closeButton;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button testFormButton;
     }
 }
 

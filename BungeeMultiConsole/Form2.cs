@@ -16,5 +16,10 @@ namespace BungeeMultiConsole
         {
             InitializeComponent();
         }
+
+        private void testStartBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
